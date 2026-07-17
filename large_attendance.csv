@@ -1,0 +1,84 @@
+Date,Day,StudentID,Name,Subject,Status,leave_reason
+2026-07-01,Wednesday,101,Karthik,Python Programming,Present,-
+2026-07-01,Wednesday,102,Suresh,Python Programming,Present,-
+2026-07-01,Wednesday,103,Divya,Python Programming,Present,-
+2026-07-01,Wednesday,104,Priya,Python Programming,Absent,Fever
+2026-07-01,Wednesday,105,Arun,Python Programming,Absent,Family Function
+2026-07-01,Wednesday,106,Deepak,Python Programming,Present,-
+2026-07-01,Wednesday,107,Ramya,Python Programming,Present,-
+2026-07-01,Wednesday,108,Vijay,Python Programming,Present,-
+2026-07-01,Wednesday,109,Shalini,Python Programming,Present,-
+2026-07-01,Wednesday,110,Nitin,Python Programming,Present,-
+2026-07-01,Wednesday,1030,Sivalani,Python Programming,Present,-
+2026-07-01,Wednesday,101,Karthik,Data Structures,Absent,Medical Checkup
+2026-07-01,Wednesday,102,Suresh,Data Structures,Present,-
+2026-07-01,Wednesday,103,Divya,Data Structures,Present,-
+2026-07-01,Wednesday,104,Priya,Data Structures,Present,-
+2026-07-01,Wednesday,105,Arun,Data Structures,Absent,Travel
+2026-07-01,Wednesday,106,Deepak,Data Structures,Present,-
+2026-07-01,Wednesday,107,Ramya,Data Structures,Absent,Headache
+2026-07-01,Wednesday,108,Vijay,Data Structures,Present,-
+2026-07-01,Wednesday,109,Shalini,Data Structures,Present,-
+2026-07-01,Wednesday,110,Nitin,Data Structures,Present,-
+2026-07-01,Wednesday,1030,Sivalani,Data Structures,Present,-
+2026-07-01,Wednesday,101,Karthik,Mathematics,Absent,Fever
+2026-07-01,Wednesday,102,Suresh,Mathematics,Absent,Heavy Rain
+2026-07-01,Wednesday,103,Divya,Mathematics,Present,-
+2026-07-01,Wednesday,104,Priya,Mathematics,Present,-
+2026-07-01,Wednesday,105,Arun,Mathematics,Present,-
+2026-07-01,Wednesday,106,Deepak,Mathematics,Present,-
+2026-07-01,Wednesday,107,Ramya,Mathematics,Absent,Personal Work
+2026-07-01,Wednesday,108,Vijay,Mathematics,Present,-
+2026-07-01,Wednesday,109,Shalini,Mathematics,Present,-
+2026-07-01,Wednesday,110,Nitin,Mathematics,Present,-
+2026-07-01,Wednesday,1030,Sivalani,Mathematics,Absent,Fever
+2026-07-01,Wednesday,101,Karthik,Operating Systems,Present,-
+2026-07-01,Wednesday,102,Suresh,Operating Systems,Present,-
+2026-07-01,Wednesday,103,Divya,Operating Systems,Present,-
+2026-07-01,Wednesday,104,Priya,Operating Systems,Present,-
+2026-07-01,Wednesday,105,Arun,Operating Systems,Absent,Fever
+2026-07-01,Wednesday,106,Deepak,Operating Systems,Present,-
+2026-07-01,Wednesday,107,Ramya,Operating Systems,Present,-
+2026-07-01,Wednesday,108,Vijay,Operating Systems,Present,-
+2026-07-01,Wednesday,109,Shalini,Operating Systems,Present,-
+2026-07-01,Wednesday,110,Nitin,Operating Systems,Present,-
+2026-07-01,Wednesday,1030,Sivalani,Operating Systems,Present,-
+2026-07-02,Thursday,101,Karthik,Python Programming,Present,-
+2026-07-02,Thursday,102,Suresh,Python Programming,Absent,Stomach Ache
+2026-07-02,Thursday,106,Deepak,Python Programming,Absent,Family Event
+2026-07-02,Thursday,109,Shalini,Python Programming,Absent,Transportation Issue
+2026-07-02,Thursday,1030,Sivalani,Python Programming,Present,-
+2026-07-02,Thursday,105,Arun,Data Structures,Absent,Fever
+2026-07-02,Thursday,1030,Sivalani,Data Structures,Present,-
+2026-07-02,Thursday,1030,Sivalani,Mathematics,Present,-
+2026-07-02,Thursday,105,Arun,Operating Systems,Absent,Personal Work
+2026-07-02,Thursday,1030,Sivalani,Operating Systems,Absent,Travel
+2026-07-03,Friday,104,Priya,Python Programming,Absent,Fever
+2026-07-03,Friday,107,Ramya,Python Programming,Absent,Cold
+2026-07-03,Friday,1030,Sivalani,Python Programming,Present,-
+2026-07-03,Friday,106,Deepak,Data Structures,Absent,Travel
+2026-07-03,Friday,1030,Sivalani,Data Structures,Present,-
+2026-07-03,Friday,105,Arun,Mathematics,Absent,Headache
+2026-07-03,Friday,1030,Sivalani,Mathematics,Present,-
+2026-07-03,Friday,103,Divya,Operating Systems,Absent,Personal Work
+2026-07-03,Friday,1030,Sivalani,Operating Systems,Present,-
+2026-07-06,Monday,103,Divya,Python Programming,Absent,Medical Emergency
+2026-07-06,Monday,1030,Sivalani,Python Programming,Absent,Sick Leave
+2026-07-06,Monday,107,Ramya,Data Structures,Absent,Transportation Issue
+2026-07-06,Monday,108,Vijay,Data Structures,Absent,Family Event
+2026-07-06,Monday,110,Nitin,Data Structures,Absent,Fever
+2026-07-06,Monday,1030,Sivalani,Data Structures,Present,-
+2026-07-06,Monday,105,Arun,Mathematics,Absent,Stomach Ache
+2026-07-06,Monday,1030,Sivalani,Mathematics,Present,-
+2026-07-06,Monday,104,Priya,Operating Systems,Absent,Medical Checkup
+2026-07-06,Monday,105,Arun,Operating Systems,Absent,Fever
+2026-07-06,Monday,107,Ramya,Operating Systems,Absent,Personal Work
+2026-07-06,Monday,1030,Sivalani,Operating Systems,Present,-
+2026-07-08,Wednesday,1030,Sivalani,Python Programming,Present,-
+2026-07-08,Wednesday,109,Shalini,Data Structures,Absent,Headache
+2026-07-08,Wednesday,1030,Sivalani,Data Structures,Absent,Family Event
+2026-07-08,Wednesday,110,Nitin,Mathematics,Absent,Personal Work
+2026-07-08,Wednesday,1030,Sivalani,Mathematics,Present,-
+2026-07-08,Wednesday,101,Karthik,Operating Systems,Absent,Fever
+2026-07-08,Wednesday,104,Priya,Operating Systems,Absent,Stomach Ache
+2026-07-08,Wednesday,1030,Sivalani,Operating Systems,Present,-

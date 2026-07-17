@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VSB Portal | Academic Division</title>
+    <!-- Bootstrap & Google Fonts -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        :root {
+            --vsb-navy: #003366;
+            --vsb-gold: #f1c40f;
+            --glass-bg: rgba(255, 255, 255, 0.9);
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(rgba(0, 31, 63, 0.8), rgba(0, 31, 63, 0.8)), 
+                        url('https://images.unsplash.com/photo-1523050853063-91363e97ee8f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80');
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            margin: 0;
+        }
+
+        /* Fade-in Animation */
+        .portal-container {
+            animation: fadeInUp 1s ease-out;
+        }
+
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .login-card {
+            background: var(--glass-bg);
+            backdrop-filter: blur(10px);
+            border-radius: 25px;
+            padding: 50px;
+            width: 100%;
+            max-width: 450px;
+            box-shadow: 0 20px 50px rgba(0,0,0,0.3);
+            border-top: 6px solid var(--vsb-gold);
+            position: relative;
+        }
+
+        .college-logo-text {
+            color: var(--vsb-navy);
+            font-weight: 800;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            font-size: 1.6rem;
+            margin-bottom: 5px;
+        }
+
+        .sub-header {
+            color: #666;
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 35px;
+            font-weight: 400;
+        }
+
+        .input-group-text {
+            background: transparent;
+            border-right: none;
+            color: var(--vsb-navy);
+            border-radius: 12px 0 0 12px;
+        }
+
+        .form-control {
+            border-left: none;
+            border-radius: 0 12px 12px 0;
+            padding: 12px;
+            font-size: 0.95rem;
+            background: rgba(240, 242, 245, 0.8);
+            border: 1px solid #ddd;
+        }
+
+        .form-control:focus {
+            box-shadow: none;
+            border-color: #ddd;
+            background: #fff;
+        }
+
+        .btn-vsb {
+            background: var(--vsb-navy);
+            color: #fff;
+            border-radius: 12px;
+            padding: 14px;
+            font-weight: 700;
+            letter-spacing: 1px;
+            transition: all 0.4s;
+            border: none;
+            margin-top: 10px;
+        }
+
+        .btn-vsb:hover {
+            background: #004a94;
+            color: var(--vsb-gold);
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(0, 51, 102, 0.3);
+        }
+
+        .alert-custom {
+            background: #ffe5e5;
+            color: #d63031;
+            border: none;
+            border-radius: 10px;
+            font-size: 0.85rem;
+            font-weight: 600;
+        }
+
+        .footer-tag {
+            position: absolute;
+            bottom: -60px;
+            left: 0;
+            right: 0;
+            text-align: center;
+            color: rgba(255,255,255,0.7);
+            font-size: 0.75rem;
+        }
+    </style>
+</head>
+<body>
+
+<div class="portal-container container">
+    <div class="row justify-content-center text-center">
+        <div class="col-12 mb-4">
+            <!-- College Emblem Placeholder/Visual Accent -->
+            <div style="width: 60px; height: 6px; background: var(--vsb-gold); margin: 0 auto 15px; border-radius: 10px;"></div>
+        </div>
+        
+        <div class="login-card">
+            <h2 class="college-logo-text">VSB Engineering</h2>
+            <p class="sub-header">Attendance Portal</p>
+
+            <form action="/check_attendance" method="POST">
+                <!-- ID Input -->
+                <div class="mb-4">
+                    <div class="input-group">
+                        <span class="input-group-text"><i class="fa-solid fa-id-card"></i></span>
+                        <input type="text" name="student_id" class="form-control" placeholder="Student ID (e.g. 101)" required>
+                    </div>
+                </div>
+
+                <!-- Name Input -->
+                <div class="mb-4">
+                    <div class="input-group">
+                        <span class="input-group-text"><i class="fa-solid fa-user"></i></span>
+                        <input type="text" name="name" class="form-control" placeholder="Full Name" required>
+                    </div>
+                </div>
+
+                <!-- Submit Button -->
+                <button type="submit" class="btn btn-vsb w-100">
+                    <i class="fa-solid fa-right-to-bracket me-2"></i> ACCESS RECORDS
+                </button>
+            </form>
+
+            <!-- Dynamic Error Message -->
+            {% if error %}
+            <div class="alert alert-custom mt-4 animate__animated animate__shakeX" role="alert">
+                <i class="fa-solid fa-circle-exclamation me-2"></i> {{ error }}
+            </div>
+            {% endif %}
+
+            <div class="footer-tag">
+                © 2024 VSB Engineering College | V.1.2 Digital Records
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
